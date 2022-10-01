@@ -1,0 +1,21 @@
+{
+    "name": "zubs/pivot-pay-php",
+    "description": "Pivot Pay API Wrapper",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Zubs",
+            "email": "zubairidrisaweda@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pivot\\": "./src/"
+        }
+    },
+    "require": {}
+}
